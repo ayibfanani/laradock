@@ -382,10 +382,12 @@ services:
       networks:
         frontend:
           aliases:
+            - learn-moodle.test
             - edlink-api.test
             - edlink.test
         backend:
           aliases:
+            - learn-moodle.test
             - edlink-api.test
             - edlink.test
 
@@ -421,10 +423,12 @@ services:
       networks:
         frontend:
           aliases:
+            - learn-moodle.test
             - edlink-api.test
             - edlink.test
         backend:
           aliases:
+            - learn-moodle.test
             - edlink-api.test
             - edlink.test
 
